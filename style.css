@@ -1,0 +1,518 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+  html{
+    font-size: 62.5%;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    background: #FFFFFF;
+    width: 100%;
+    height: 100vw;
+}
+
+header{
+    padding-left: 2.4rem;
+    padding-right: 2.45rem;
+}
+
+.logo-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+border-radius: 0px;
+color: #FFFFFF;
+background: #F16718;
+width:4rem;
+height: 4rem;
+padding:0.6rem 1.6rem 2.3rem 0.5rem;
+margin-top: 2.7rem;
+}
+
+.pre-order{
+height: 4.8rem;
+width: 15rem;
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 2.6rem;
+text-align: center;
+color: #162542;
+background: #E8EFF2;
+border-radius: 8px;
+margin-top: 2.3rem;
+padding-top:1.1rem;
+}
+
+.typemaster-keyboard{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+h1{
+font-weight: 900;
+font-size: 4.8rem;
+line-height: 4.8rem;
+text-transform: uppercase;
+color: #162542;
+margin-top: 6.4rem;
+}
+
+.improve-productivity{
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+width: 35rem;
+}
+
+.btn-release{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.orange-btn{
+height: 48px;
+width: 150px;
+border-radius: 8px;    
+background: #F16718;
+border-radius: 8px;
+border: none;
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 2.6rem;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+}
+
+h4{
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #7B8BAD;
+margin-top: 1.1rem;
+margin-right: 2rem;
+}
+
+/* images */
+
+.keyboard{
+display: none;
+}
+
+.tab-image-phone-and-keyboard{
+    display:none;
+}
+
+.tab-image-glass-and-keyboard{
+    display: none;
+}
+
+ .desktop-image-phone-and-keyboard{
+ display:none;
+}
+
+.desktop-image-glass-and-keyboard{
+  display:none;
+} 
+
+.mobile-image-keyboard{
+    width: 37.5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-top: 6.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.main-keyboard-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+
+
+.mobile-image-phone-and-keyboard{
+    width:30%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+.mobile-image-glass-and-keyboard{
+    width: 60%;
+    border-radius: 1rem;
+}
+
+.container-heading-parag{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 2.4rem;
+}
+
+h2{
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #162542;
+margin-left: 6rem;
+margin-right: 6rem;
+}
+
+.container-paragraph{
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #7B8BAD;
+margin-left: 2.4rem;
+margin-right: 2.4rem;
+margin-bottom: 11.1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.icon-computer{
+width: 6.5rem;
+height: 6.5rem;
+background: #F16718;
+border-radius: 16px;
+gap: 0.131rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 4.8rem;
+}
+
+.icon{
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #F16718;
+    border-radius: 16px;
+    gap: 0.131rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.8rem;
+    color: #FFFFFF;
+    }
+
+
+.computer-icon{
+    width: 2.514rem;
+    height: 1.6rem;
+    background: #FFFFFF;
+    border-radius: 0.3rem;
+}
+
+.computer-bottom{
+    border-bottom: solid 0.3rem #FFFFFF;
+    border-left: solid 0.3rem transparent;
+    border-right: solid 0.3rem transparent;
+    width: 1.4rem;
+}
+
+
+h5{
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #162542;
+margin-right: 8rem;
+margin-left: 8rem;
+margin-bottom: 2.4rem;
+}
+
+.bluetooth-heading{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.section-paragraph{
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #7B8BAD;
+}
+
+.section-paragraph-battery{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;  
+    padding-right: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+h3{
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+}
+
+span{
+    font-weight: normal;
+}
+
+
+@media screen and (min-width: 786px){
+
+body{
+    background-image: url(Tablet-images/tabimage-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: top 15rem right -15.2rem;
+}
+
+.logo-header{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.7rem;
+}
+
+/* images */
+.mobile-image-phone-and-keyboard{
+    display:none
+}
+.mobile-image-glass-and-keyboard{
+    display: none;
+}
+
+.mobile-image-keyboard{
+    display:none;
+}
+
+
+.typemaster-and-image{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    padding-bottom: 12rem;
+}
+
+.tab-image-phone-and-keyboard{
+    display:flex;
+    width: 27.2%;    
+    height: 32rem;
+    border-radius: 2rem;
+}
+
+.tab-image-glass-and-keyboard{
+    display:flex;
+    width: 60%;     
+    height: 32rem;
+    border-radius: 2rem;
+}
+
+.typemaster-keyboard{
+    width: 50%;
+    padding-left: 1.5rem;
+}
+
+.main-keyboard-images{
+    gap: 3.7rem;
+    padding-left: 3.9rem;
+}
+
+.orange-btn{
+height: 58px;
+width: 175px;
+}
+
+.container-heading-parag{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    text-align: left;
+    transform: translateX(-2rem);
+}
+
+.container-paragraph{
+    text-align: left;
+    margin-block: auto;
+    transform: translateX(-2.5rem);
+}
+
+section{
+    margin-top: 14.2rem;
+    padding-left: 3.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 6.9rem;
+}
+
+.section-container{
+    width: 39%;
+    align-items: initial;
+}
+
+.section-paragraph{
+    text-align: left;
+}
+
+.section-paragraph-battery{
+    text-align: left;
+}
+
+.bluetooth-heading{
+    transform: translateX(-5.3rem);
+}
+
+h5{
+    transform: translateX(-8rem);
+    text-align: left;
+    width: 20rem;
+}
+
+}
+    
+
+
+@media screen and (min-width: 1440px){
+body{
+    background-image: url(desktop-images/desktop-image-keyboard.jpg),url(desktop-images/pattern-square.svg);
+    background-repeat: no-repeat;
+    background-size: 36%,18%;
+    background-position: right 17rem top 18rem,left 130rem top 18rem;
+}
+
+.logo-header{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 13rem;
+    padding-top: 11rem;
+    background-image: url(desktop-images/pattern-square.svg);
+    background-repeat: no-repeat;
+    background-position: top 33.3rem right 131rem;
+}
+
+/* images */
+   .mobile-image-phone-and-keyboard{
+    display: none;
+   }
+
+   .mobile-image-glass-and-keyboard{
+    display: none;
+   }
+
+    .tab-image-phone-and-keyboard{
+        display:none;
+    }
+    
+    .tab-image-glass-and-keyboard{
+        display:none;
+    }
+
+.typemaster-keyboard{
+    padding-left: 15rem;
+    width:37%;
+}
+
+.desktop-image-phone-and-keyboard{
+    width: 35%;
+    border-radius: 2rem;
+}
+
+.desktop-image-glass-and-keyboard{
+    width: 59.7%;
+    border-radius: 2rem;
+}
+
+
+h1{
+font-size: 56px;
+line-height: 56px;
+}
+
+.improve-productivity{
+    font-size: 18px;
+    width: 44rem;
+}
+
+.container-heading-parag{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 5rem;
+}
+
+.container-paragraph{
+    width: 45%;
+}
+
+h2{
+    width: 27rem;
+}
+
+section{
+padding-left: 16rem;
+padding-right: 15rem;
+gap: 3rem;
+padding-bottom: 12.8rem;
+}
+
+.section-container{
+    width: 22%;
+}
+
+.section-paragraph-battery{
+    width: 27rem;
+}
+
+footer{
+    padding-bottom: 3.9rem;
+}
+
+}
